@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 0px;
+    padding: 0px 20px 20px 20px;
+    background-color: #f8f8f8;
+    z-index: 1000;
+  }
+  
+  .brand-name {
+    color: rgb(176, 186, 32);
+    margin-bottom: 10px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    padding-bottom: 10px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav-links a:hover {
+    color: rgb(176, 186, 32);
+    background-color: rgb(217, 213, 213);
+    border-radius: 5px;
+    padding: 5px;
+    transition: 1s;
+  }
