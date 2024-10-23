@@ -14,15 +14,7 @@ function App() {
     <>
     <NavBar/>
 
-     {/* <div>
-
-        <h1>Hola</h1>
-        <Button text="Mi primer boton" color="green"/>
-        <Button text="Mi segundo boton" color="blue"/>        
-
-      </div> */}
-
-      <ItemListContainer message="En la brevedad los productos estarán disponibles"/>
+    <ItemListContainer message="En la brevedad los productos estarán disponibles"/>
     </>
   )
 }

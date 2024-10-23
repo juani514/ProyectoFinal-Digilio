@@ -1,16 +1,22 @@
 import React from 'react'
 import CartWidget from '../CartWidget/CartWidget'
 import './NavBar.css';
+import logo from '../../assets/logo.ico'
 
 const NavBar = () => {
 
   return (
 
     <div className="navbar">
+      
+      <div className="logo-container">
 
+      <img className="logo" src={logo}></img>
       <h1 className="brand-name">Beer Market</h1>
 
-      <nav>
+      </div>
+
+      <nav className="nav-container">
 
       <ul className="nav-links">
 
@@ -19,9 +25,9 @@ const NavBar = () => {
              <li><a id="negras" href="#negras">Cervezas Negras</a></li>
       </ul>
 
-      </nav>
+      <CartWidget/>
 
-      <CartWidget />
+      </nav>
       
     </div>
   )
