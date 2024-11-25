@@ -1,15 +1,14 @@
-import React from 'react'
+import './Button.css';
 
-const Button = ({text, color}) => {
+const Button = ({ label, callback }) => {
   return (
-    <div>
-    
-    <button style={{backgroundColor: color}}> {text} </button>
-        
-    </div>
-  )
-}
+    <button
+      className="button-detail"
+      onClick={() => callback()}
+    >
+      {label}
+    </button>
+  );
+};
 
-export default Button
-
-
+export default Button;
