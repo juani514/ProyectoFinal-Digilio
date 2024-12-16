@@ -1,36 +1,48 @@
-import React from 'react'
-import CartWidget from '../CartWidget/CartWidget'
-import './NavBar.css';
-import logo from '../../assets/logo.ico'
+import React, { useState } from "react";
+import '../Navbar/Navbar.css';
+import logoNavbar from '../../img/logo-travel-devs.png';
+import CartWidget from '../CartWidget/CartWidget.jsx';
+import { NavLink, Link } from "react-router-dom";
 
-const NavBar = () => {
 
-  return (
 
-    <div className="navbar">
-      
-      <div className="logo-container">
+function Navbar() {
+    return (
 
-      <img className="logo" src={logo}></img>
-      <h1 className="brand-name">Beer Market</h1>
+        <nav className="navbar navbar-expand-lg navbar-contenedor">
+            <div className="navbar-content">
+                <div className="navbar-logo">
+                    <Link to="/" className="navbar-brand">
+                        <img
+                            className="logo-navbar"
+                            src={logoNavbar}
+                            alt="logo e-commerce"
+                        />
+                    </Link>
+                </div>
 
-      </div>
+                <div className="navbar-links">
+                    <NavLink to={`/categoria/mochilas`} className={({ isActive }) => isActive ? 'ActiveOption' : 'PosibleOption'}>
+                        Mochilas
+                    </NavLink>
+                    <NavLink to={`/categoria/tecnologia`} className={({ isActive }) => isActive ? 'ActiveOption' : 'PosibleOption'}>
+                        Tecnología
+                    </NavLink>
+                    <NavLink to={`/categoria/accesorios`} className={({ isActive }) => isActive ? 'ActiveOption' : 'PosibleOption'}>
+                        Accesorios
+                    </NavLink>
+                </div>
 
-      <nav className="nav-container">
+                <div className="navbar-cart">
+                    <Link to="/cart/Cart" className="anchoCart">
+                        <CartWidget />
+                    </Link>
+                </div>
+            </div>
+        </nav>
 
-      <ul className="nav-links">
 
-             <li><a id="rubias" href="#rubias">Cervezas Rubias</a></li>
-             <li><a id="rojas" href="#rojas">Cervezas Rojas</a></li>
-             <li><a id="negras" href="#negras">Cervezas Negras</a></li>
-      </ul>
-
-      <CartWidget/>
-
-      </nav>
-      
-    </div>
-  )
+    )
 }
 
-export default NavBar
+export default Navbar;

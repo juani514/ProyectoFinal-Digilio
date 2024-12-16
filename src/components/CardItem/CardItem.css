@@ -1,0 +1,254 @@
+.carritoContenedor {
+    display: flex;
+    justify-content: center;
+    padding: 0.5vmax;
+}
+
+.textoCarrito {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.5vmax;
+}
+
+.textoCarrito p {
+    margin: 0;
+    
+}
+
+.textoCarrito h2 {
+    margin: 0;
+    font-size: 2vmax;
+    
+}
+
+.cardItemContainer {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid rgb(209, 209, 209);
+    border-radius: 10px;
+    margin-top: 5px;
+    height: 7vmax;
+   background-color: white;
+}
+
+.cardItemContainer img {
+    width:5vmax;
+}
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:2220px) {
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:1400px) {
+
+   
+  
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:1200px) {
+
+    .cardItemContainer {
+        width: 90%;
+       
+    }
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:992px) {
+
+    .cardItemContainer {
+        width: 80%;
+        margin-top: 5px;
+        height: 22vmax;
+       
+    }
+
+    .textoCarrito {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 1vmax;
+    }
+
+    .cardItemContainer img {
+        width:15vmax;
+    }
+
+    .btnCard {
+        padding: 0.8vmax 6vmax !important;
+    }
+    
+
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:885px)  {
+
+   
+   
+        
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:821px)  {
+
+   
+    .cardItemContainer img {
+        width:17vmax;
+    }
+    
+    
+        
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla movile varios   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:800px) {
+
+
+   
+ 
+}
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:768px) {
+
+    
+   
+    
+  
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:767px) {
+
+   
+
+    
+    
+ 
+}
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:636px) {
+    
+  
+}
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:576px) {
+
+    
+    
+
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:543px) {
+
+   
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla movile varias |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:500px) {
+
+    .cardItemContainer {
+        width: 80%;
+        margin-top: 5px;
+        height: 42vmax;
+        flex-flow: column nowrap;
+       
+    }
+
+   
+
+    .cardItemContainer img {
+        width:14vmax;
+    }
+
+    .btnCard {
+        font-size: 1.6vmax !important;
+    }
+   
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla moviles varios |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:469px) {
+
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:391px) {
+ 
+   
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:325px) {
+   
+    .cardItemContainer {
+        width: 80%;
+        margin-top: 5px;
+        height: 48vmax;
+        flex-flow: column nowrap;
+       
+    }
+ 
+    
+}  

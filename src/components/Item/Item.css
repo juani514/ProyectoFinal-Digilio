@@ -1,0 +1,244 @@
+.CardItem {
+    border: 1.6px solid rgb(199, 199, 199);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1vmax;
+    padding: 2cqh;
+    text-align: center;
+    box-sizing: border-box;
+    width: 25vmax;
+    height: 32vmax;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.744), #e3e2e2ca);
+    transition: transform 0.3s ease;   
+}
+
+.CardItem:hover {
+    transform: scale(1.02);
+}
+
+.linea {
+    color: rgb(69, 0, 65); 
+}
+
+.ItemMain {
+    margin-top: 0.5vmax;
+    margin-bottom:0.5vmax;
+    font-size: 1.8vmax;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.ItemImg1 {
+    width: 14vmax;
+    padding: 1.2vmax;
+}
+
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:2220px) {
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:1400px) {
+
+   
+  
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:1200px) {
+
+   
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:992px) {
+
+   
+
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:885px)  {
+
+   
+    .CardItem {
+        margin: 1vmax;
+        padding: 2cqh;
+        width: 30vmax;
+        height: 38vmax;
+         
+    }
+        
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:835px)  {
+
+    .CardItem {
+        width: 26vmax;
+        height: 38vmax;
+         
+    }
+    
+    
+    
+        
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla movile varios   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:800px) {
+
+
+   
+ 
+}
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:768px) {
+
+    .CardItem {
+        margin: 2vmax;
+        padding: 2cqh;
+        width: 30vmax;
+        height: 38vmax;
+        z-index: 2;
+         
+    }
+    
+   
+    
+  
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:767px) {
+
+   
+
+    
+    
+ 
+}
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:636px) {
+    
+  
+}
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:576px) {
+
+    
+    
+
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:543px) {
+
+   
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla movile varias |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:481px) {
+
+    .CardItem {
+        margin: 2vmax;
+        padding: 2cqh;
+        width: 30vmax;
+        height: 45vmax;
+        z-index: 2;
+         
+    }
+    
+
+    .ItemImg1 {
+        width: 17vmax;
+        padding: 1.2vmax;
+    }
+   
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla moviles varios |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:469px) {
+
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:391px) {
+ 
+    .CardItem {
+        margin: 2vmax;
+        padding: 2cqh;
+        width: 38vmax;
+        height: 52vmax;
+        
+         
+    }
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:325px) {
+   
+    
+ 
+    
+}  

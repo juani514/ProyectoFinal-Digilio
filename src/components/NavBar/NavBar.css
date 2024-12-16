@@ -1,70 +1,57 @@
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-right: 50px;
-  background-color: white;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
+.navbar-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    padding: 0 2rem;
 }
 
-.logo-container {
-  display: flex;
-  align-items: center;
+.navbar-content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
 }
 
-.logo {
-  width: 50px;
-  height: auto;
-  margin-right: 10px;
+.navbar-logo {
+    flex: 0 0 auto;
 }
 
-.brand-name {
-  font-size: 1.5rem;
-  color: #333;
+.logo-navbar {
+    width: 250px;
 }
 
-.nav-container {
-  display: flex;
+.navbar-links {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    gap: 2rem;
 }
 
-.nav-links {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  margin-top: 1rem;
-  padding-right: 20px;
+.PosibleOption,
+.ActiveOption {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    transition: color 0.3s ease;
 }
 
-.nav-links li {
-  margin-left: 30px;
+.ActiveOption {
+    color: rgb(192, 255, 91);
 }
 
-.nav-links a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
+.navbar-cart {
+    margin-left: 1rem;
 }
 
-.nav-links a:hover {
-  background-color: rgb(217, 213, 213);
-  border-radius: 5px;
-  padding: 5px;
-  transition: 1s;
-}
-
-#rubias:hover {
-  color: rgb(158, 158, 35);
-}
-
-#rojas:hover {
-  color: rgb(148, 29, 29);
-}
-
-#negras:hover {
-  color: black;
+.anchoCart {
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
 }
